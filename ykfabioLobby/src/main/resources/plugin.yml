@@ -1,0 +1,52 @@
+name: ykfabioLobby
+version: 1.2.0
+main: de.ykfabio.lobby.LobbyPlugin
+api-version: '26.1'
+author: ykfabio
+description: ykfabio Network lobby management, protection and navigator
+commands:
+  lobby:
+    description: Lobby management commands
+    usage: /lobby help
+  spawn:
+    description: Teleport to the local lobby spawn
+  setspawn:
+    description: Set the local spawn
+  setlobby:
+    description: Set the lobby location
+  holo:
+    description: Manage persistent ykfabio lobby holograms
+    usage: /holo help
+permissions:
+  ykfabio.lobby.admin:
+    default: op
+  ykfabio.lobby.bypass:
+    default: op
+  ykfabio.lobby.reload:
+    default: op
+  ykfabio.lobby.weather:
+    default: op
+  ykfabio.lobby.time:
+    default: op
+  ykfabio.lobby.mobs:
+    default: op
+  ykfabio.lobby.pvp:
+    default: op
+  ykfabio.lobby.damage:
+    default: op
+  ykfabio.lobby.falldamage:
+    default: op
+  ykfabio.lobby.hearts:
+    default: op
+  ykfabio.lobby.level:
+    default: op
+  ykfabio.lobby.hologram:
+    default: op
+  ykfabio.lobby.hunger:
+    default: op
+  ykfabio.lobby.fly:
+    default: op
+  ykfabio.lobby.locations:
+    default: op
+  ykfabio.lobby.info:
+    default: op

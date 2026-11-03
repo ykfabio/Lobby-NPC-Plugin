@@ -1,0 +1,31 @@
+# Permission nodes are checked against ykfabio RankSystem first, then Bukkit permissions.
+commands:
+  admin: ykfabio.lobby.admin
+  reload: ykfabio.lobby.reload
+  weather: ykfabio.lobby.weather
+  time: ykfabio.lobby.time
+  mobs: ykfabio.lobby.mobs
+  pvp: ykfabio.lobby.pvp
+  damage: ykfabio.lobby.damage
+  falldamage: ykfabio.lobby.falldamage
+  hearts: ykfabio.lobby.hearts
+  level: ykfabio.lobby.level
+  hologram: ykfabio.lobby.hologram
+  hunger: ykfabio.lobby.hunger
+  fly: ykfabio.lobby.fly
+  locations: ykfabio.lobby.locations
+  info: ykfabio.lobby.info
+bypass: ykfabio.lobby.bypass
+# Configure nodes that identify staff in your RankSystem.
+staff-permissions:
+  - ranksystem.admin
+  - ykfabio.staff
+  - ykfabio.staff.yk
+  - ykfabio.staff.admin
+  - ykfabio.staff.dev
+  - ykfabio.staff.srmod
+  - ykfabio.staff.mod
+  - ykfabio.staff.sup
+  - ykfabio.staff.builder
+  - ykfabio.staff.content
+  - ykfabio.staff.azubi

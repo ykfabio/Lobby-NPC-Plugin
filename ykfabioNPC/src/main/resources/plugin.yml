@@ -1,0 +1,13 @@
+name: ykfabioNPC
+version: 1.1.0
+main: de.ykfabio.npc.NPCPlugin
+api-version: '26.1'
+author: ykfabio
+description: Player NPCs, click actions and holograms for ykfabio Network
+commands:
+  npc:
+    description: Manage ykfabio Network NPCs and player skins
+    usage: /npc <create|remove|list|tp|action|set|reload>
+permissions:
+  ykfabio.npc.admin:
+    default: op

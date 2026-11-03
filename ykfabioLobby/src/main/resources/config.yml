@@ -1,0 +1,15 @@
+# ykfabio Lobby - general plugin settings
+network:
+  lobby-server: lobby
+  citybuild-server: citybuild
+join:
+  clear-inventory: true
+  give-items: true
+  teleport-to-lobby: true
+navigator:
+  enabled: true
+  glow: true
+  slot: 4
+locations:
+  lobby: {}
+  spawn: {}

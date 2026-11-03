@@ -1,0 +1,4 @@
+holograms:
+  show-player-count: true
+  show-status: true
+npcs: {}

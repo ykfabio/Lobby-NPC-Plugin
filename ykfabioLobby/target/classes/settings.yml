@@ -1,0 +1,31 @@
+world:
+  weather: CLEAR
+  lock-weather: true
+  time: DAY
+  mob-spawning: false
+  pvp: false
+  keep-inventory: true
+protection:
+  block-break: true
+  block-place: true
+  anti-drop: true
+  anti-pickup: true
+  no-damage: true
+  fall-damage: false
+  no-hunger: true
+  void-protection: true
+  void-y: -10
+  admin-bypass: true
+features:
+  double-jump: true
+  double-jump-power: 0.8
+  double-jump-forward: 0.7
+  lobby-fly: false
+
+# Player defaults are applied automatically on every join.
+players:
+  set-hearts-on-join: true
+  default-hearts: 10
+  heal-on-join: true
+  set-level-on-join: true
+  default-level: 0

@@ -1,0 +1,8 @@
+{
+  "id": "ykfabiovelocitylobby",
+  "name": "ykfabioVelocityLobby",
+  "version": "1.0.0",
+  "description": "Network-wide /lobby for ykfabio Network",
+  "authors": ["ykfabio"],
+  "main": "de.ykfabio.velocitylobby.VelocityLobbyPlugin"
+}
