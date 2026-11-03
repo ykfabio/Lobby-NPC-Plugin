@@ -207,8 +207,18 @@ public final class LobbyPlugin extends JavaPlugin implements Listener, PluginMes
         };
         if (ticks < 0) { tell(sender, "usage-time"); return; }
         for (World world : Bukkit.getWorlds()) {
-            world.setTime(ticks);
-            world.setGameRule(GameRule.DO_DAYLIGHT_CYCLE, false);
+            try {
+                try {
+                    world.setTime(ticks);
+                    world.setGameRule(GameRule.DO_DAYLIGHT_CYCLE, false);
+                } catch (IllegalArgumentException exception) {
+                    getLogger().warning("Weltzeit für '" + world.getName()
+                            + "' konnte nicht gesetzt werden: " + exception.getMessage());
+                }
+            } catch (IllegalArgumentException exception) {
+                getLogger().warning("Weltzeit für '" + world.getName()
+                        + "' konnte nicht gesetzt werden: " + exception.getMessage());
+            }
         }
         settings.set("world.time", value.toUpperCase()); saveSettings();
         tell(sender, "time-set", "value", value);
